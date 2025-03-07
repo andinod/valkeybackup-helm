@@ -46,7 +46,7 @@ spec:
             - name: DEBUG_IMAGE
               value: {{ .Values.image.debug | default "false" | quote }}
             - name: VALKEY_NAME
-              value: valkey-{{ .Release.Name }}
+              value: {{ required "A valid .Values.valkey_name entry required!" .Values.valkey_name }}
             - name: VALKEY_NAMESPACE
               value: {{ .Values.namespace | default "default" | quote }}
             - name: VALKEY_PASSWORD
