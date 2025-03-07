@@ -5,7 +5,7 @@
 
 # This parameter is required.
 # Name of the instance to connect and backup
-#valkey_name: valkey-sentinel-ssl
+#valkey_instance_name: valkey-sentinel-ssl
 
 #namespace: default
 
