@@ -1,5 +1,0 @@
-{{- if eq .Values.cronjob.enabled true }}
-{{- template "valkey-backup.cronjob" . }}
-{{- else }}
-{{- template "valkey-backup.job" . }}
-{{- end }}
