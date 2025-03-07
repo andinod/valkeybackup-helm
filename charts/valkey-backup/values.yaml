@@ -12,7 +12,7 @@
 #Docker image to be used 
 image: 
   repository: quay.io/david_andino/valkey-backup
-  tag: v0.0.2
+  tag: latest
   #debug: false
 
 cronjob:
