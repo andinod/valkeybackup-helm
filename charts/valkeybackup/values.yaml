@@ -1,4 +1,4 @@
-# Default values for valkey-backup.
+# Default values for valkeybackup.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -11,7 +11,7 @@
 
 #Docker image to be used 
 image: 
-  repository: quay.io/david_andino/valkey-backup
+  repository: quay.io/david_andino/valkeybackup
   tag: latest
   #debug: false
 

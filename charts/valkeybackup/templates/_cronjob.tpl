@@ -8,7 +8,7 @@
 # │ │ │ │ │
 # * * * * *
 {{/* Generate the valkey cronjob if activated */}}
-{{- define "valkey-backup.cronjob" }}
+{{- define "valkeybackup.cronjob" }}
 apiVersion: batch/v1
 kind: CronJob
 metadata:

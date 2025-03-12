@@ -1,5 +1,5 @@
 {{/* Generate the valkey job if the cronjob is deactivated */}}
-{{- define "valkey-backup.job" }}
+{{- define "valkeybackup.job" }}
 apiVersion: batch/v1
 kind: Job
 metadata:

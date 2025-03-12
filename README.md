@@ -1,7 +1,7 @@
 # Valkey Backup Helm Chart
 
 - [License](https://www.apache.org/licenses/LICENSE-2.0.txt)
-- [Release](https://github.com/andinod/valkey-backup-helm/releases)
+- [Release](https://github.com/andinod/valkeybackup-helm/releases)
 
 ## Introduction
 
@@ -22,10 +22,10 @@ Theorically it can also support GCP, AWS and AZURE, but these are not tested.
 
 ### Using Helm
 
-Deploy using Helm (version 3.8.0 or later). In the following link you will get the proper instructions [Helm Installation](https://andinod.github.io/valkey-backup-helm/).
+Deploy using Helm (version 3.8.0 or later). In the following link you will get the proper instructions [Helm Installation](https://andinod.github.io/valkeybackup-helm/).
 
 ```bash
-helm upgrade --install valkey-standalone-instance https://andinod.github.io/valkey-backup-helm/charts/valkey-backup -f myvalues.yaml
+helm upgrade --install valkey-standalone-instance https://andinod.github.io/valkeybackup-helm/charts/valkeybackup -f myvalues.yaml
 ```
 
 Please set the customized values in a file based on the values.yaml file of the Chart.
