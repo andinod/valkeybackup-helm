@@ -24,6 +24,16 @@ entries:
   valkeybackup:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-03-12T08:30:11.16869831Z"
+    description: A Helm chart for Kubernetes
+    digest: 9b4794f5b36a6f2f317848b88af1213688f62f91d6dff713e1ffd3cd66ddc95d
+    name: valkeybackup
+    type: application
+    urls:
+    - https://github.com/andinod/valkeybackup-helm/releases/download/valkeybackup-0.2.0/valkeybackup-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-03-12T08:29:02.430673498Z"
     description: A Helm chart for Kubernetes
     digest: 94e728e15a7631bee30e6c8a79bcbab7463afafcb1aef897804658b24b124792
@@ -32,4 +42,4 @@ entries:
     urls:
     - https://github.com/andinod/valkeybackup-helm/releases/download/valkeybackup-0.1.1/valkeybackup-0.1.1.tgz
     version: 0.1.1
-generated: "2025-03-12T08:29:02.4306855Z"
+generated: "2025-03-12T08:30:11.168709641Z"
