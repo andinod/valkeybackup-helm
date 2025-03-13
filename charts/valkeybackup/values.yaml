@@ -40,10 +40,11 @@ valkey:
 #restic_password:
 
 # Required S3 connection information
-#
+# 
 #s3:
-#  access_key:
-#  secret_key:
+#  #Access Key and Secret credential stores in a secret file
+#  #The secret has to contain the access_key and secret_access_key as keys and each values.
+#  access_credentials_secret:
 #  bucket_name:
 #  region:
 #  host:
